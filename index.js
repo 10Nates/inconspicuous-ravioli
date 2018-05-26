@@ -41,8 +41,4 @@ bot.on('message', (message) => {
 
 });
 
-<<<<<<< HEAD
 bot.login(process.env.Token);
-=======
-bot.login(process.env.Token);
->>>>>>> 737e1e7829157c7faa0420f7d4222eea4cc01911
