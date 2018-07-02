@@ -19,7 +19,7 @@ module.exports = {
         if (message.author.id === '186507006008360960') {
             if (message.channel.id === '449759045491097610') {
                 if (getlength(argz[0]) == 18) {
-                    msg = message.content.replace(argz[0] + ' ', ''); /*.replace(/!!HIVEMINDovrd /g, '')*/
+                    msg = message.content.replace(argz[0] + ' ', ''); 
                     bot.channels.get(argz[0]).send(msg);
                     bot.channels.get('449759068941189151').send(`recieved: ${message.author.username} - ${message.content}`);
                     bot.channels.get('449759068941189151').send(`Sent: ${msg} to <#${argz[0]}>`);
